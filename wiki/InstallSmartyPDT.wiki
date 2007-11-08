@@ -3,7 +3,7 @@
 
 = Installation =
 
-This page describes the installation of smartypdt
+This page describes the installation step for smartypdt
 
 
 = Details =
