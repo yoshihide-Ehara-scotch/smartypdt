@@ -1,0 +1,7 @@
+#how to use guide
+= How to use pdtsmarty =
+
+ # Select from the main menu 'File' -> 'New' 
+ # Choose to add a file (from the list or from the 'Other' option)
+ # fill _<yourfilename>.tpl_ in the 'file name' field of the wizard
+ # You can start editng your file and use both pdt and smarty support.
