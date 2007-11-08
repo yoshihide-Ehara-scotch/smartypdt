@@ -9,5 +9,4 @@ This page describes the installation of smartypdt
 = Details =
 
  * Install Eclipse [http://www.eclipse.org/pdt]
- * Unzip the pdt_smarty_X.zip file into the eclipse folder 
- * Start eclipse
+ * Unzip the pdt_smarty_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
