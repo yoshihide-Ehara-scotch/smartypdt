@@ -9,4 +9,5 @@ This page describes the installation step for smartypdt
 = Details =
 
  * Install Eclipse [http://www.eclipse.org/pdt]
+ * In order to run smartypdt one needs to use the latest release of PDT - for now http://download.eclipse.org/tools/pdt/downloads/?release=N20071119
  * Unzip the pdt_smarty_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
