@@ -5,11 +5,15 @@
 
 This page describes the installation step for smartypdt
 
+= Requirements =
+ * Java 5 JRE version - [http://java.sun.com/javase/downloads/index_jdk5.jsp here]
+ * Eclipse SDK v3.3.1.1 version - [http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.3.1.1-200710231652/eclipse-SDK-3.3.1.1-win32.zip here]
+ * EMF SDO XSD 2.3.1 SDK version -  [http://www.eclipse.org/downloads/download.php?file=/modeling/emf/emf/downloads/drops/2.3.1/R200709252135/emf-sdo-xsd-SDK-2.3.1.zip here]
+ * GEF 3.3.1 SDK version  - [http://www.eclipse.org/downloads/download.php?file=/tools/gef/downloads/drops/R-3.3.1-200709241000/GEF-SDK-3.3.1.zip here]
+ * DTP 1.5.1 SDK version - [http://www.eclipse.org/downloads/download.php?file=/datatools/downloads/1.5/dtp-sdk_1.5.1_101607.zip here]
+ * WTP 2.0.1 SDK version  - [http://www.eclipse.org/downloads/download.php?file=/webtools/downloads/drops/R2.0/R-2.0.1-20070926042742/wtp-sdk-R-2.0.1-20070926042742.zip here]
+ * PDT 1.0.2 I20071209 - [http://download.eclipse.org/tools/pdt/downloads/?release=I20071209 here]
 
-= Details =
+= Install =
+ * Unzip the smartypdt_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
 
- * Install [http://www.eclipse.org Eclipse]
-
- * In order to run smartypdt one needs to use the latest release of PDT - for now http://download.eclipse.org/tools/pdt/downloads/?release=N20071120
-
- * Unzip the pdt_smarty_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
