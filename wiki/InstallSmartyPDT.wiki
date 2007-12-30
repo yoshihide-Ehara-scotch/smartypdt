@@ -23,6 +23,8 @@ OR, download all dependencies (by yourself):
 = Install =
 (thanks to bdgeorge for his comment)
  * Unzip the smartypdt_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
- * go to help -> software update -> manage configuration
- * Click on the "Show Disabled Features Icon"
- * Then activate the smarty feature
+ * Go to Help->Software Updates->Manage Configuration 
+ * Tick the icon to 'Show disabled Features' 
+ * Find the "Smarty Feature nnnnn" entry and select it 
+ * Click the "Enable" option from the Available tasks 
+ * Restart Eclipse when prompted 
