@@ -21,4 +21,8 @@ OR, download all dependencies (by yourself):
  * PDT 1.0.2 I20071209 - [http://download.eclipse.org/tools/pdt/downloads/?release=I20071209 here]
 
 = Install =
+(thanks to bdgeorge for his comment)
  * Unzip the smartypdt_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
+ * go to help -> software update -> manage configuration
+ * Click on the "Show Disabled Features Icon"
+ * Then activate the smarty feature
