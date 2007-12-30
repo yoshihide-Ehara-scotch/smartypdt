@@ -21,7 +21,7 @@ OR, download all dependencies (by yourself):
  * PDT 1.0.2 I20071209 - [http://download.eclipse.org/tools/pdt/downloads/?release=I20071209 here]
 
 = Install =
-(thanks to bdgeorge for his comment)
+(thanks to [http://code.google.com/u/bdgeorge/ bdgeorge] for his comment)
  * Unzip the smartypdt_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
  * Go to Help->Software Updates->Manage Configuration 
  * Tick the icon to 'Show disabled Features' 
