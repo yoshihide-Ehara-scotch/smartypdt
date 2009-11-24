@@ -5,5 +5,5 @@
  # Right click on the php project,select the menu 'Smarty' -> 'Add Smarty Nature' 
  # Select from the main menu 'File' -> 'New' 
  # Choose to add a file (from the list or from the 'Other' option)
- # fill <yourfilename>.tpl in the 'file name' field of the wizard
+ # fill yourfilename.tpl in the 'file name' field of the wizard
  # You can start editng your file and use both pdt and smarty support.
