@@ -1,6 +1,8 @@
 #how to use guide
 = How to use pdtsmarty =
 
+ # Open the php explorer view,choose a php project which you want to add smarty support.
+ # Right click on the php project,select the menu 'Smarty' -> 'Add Smarty Nature' 
  # Select from the main menu 'File' -> 'New' 
  # Choose to add a file (from the list or from the 'Other' option)
  # fill _<yourfilename>.tpl_ in the 'file name' field of the wizard
