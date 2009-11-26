@@ -3,19 +3,18 @@
 
 = Installation =
 
-This page describes the installation steps for smartypdt (*Thanks matei.dragu*)
+This page describes the installation steps for smartypdt (*Thanks to matei.dragu for his comments!*)
 
 = Requirements =
 Download PDT 2.2 / Studio 7.1 all-in-one from Zend's site
 
 = Install =
-(thanks to [http://code.google.com/u/bdgeorge/ bdgeorge] for his comment)
 You requested info about how to install SmartyPDT 0.9.0 on Galileo, so i will try to explain the steps:
 
- # Download smartypdt 0.9.0 from http://smartypdt.googlecode.com/files/smartypdt-0_9_0.zip    
-   * Be shure that the .TPL files are not associated with any content type (file type). In Eclipse, go to Window->Preferences->General->Content Types and under the Text section check HTML and PHP Content Type If you see that the .TPL is associated with anything, just delete those entries.
+ # Download latest SmartyPDT package (currently 0.9.0) from http://code.google.com/p/smartypdt/    
+   * Be sure that the .TPL files are not associated with any content type (file type). In Eclipse, go to Window->Preferences->General->Content Types and under the Text section check HTML and PHP Content Type If you see that the .TPL is associated with anything, just delete those entries.
  # Go to Help-> Install New Software
-   * At the Work With section click on the Add... button. Give the new "Site" a name and click on Archive... and select the downloaded .ZIP archive with smartypdt. Go back to the Install New Software window and select the newly added "site". If the "Group items by category" checkbox is checked, uncheck it. Now you should be able to see 1 item in the software list named "Smarty Feature"
+   * At the Work With section click on the Add... button. Give the new "Site" a name and click on Archive... and select the downloaded .ZIP archive with smartypdt. Go back to the Install New Software window and select the newly added "site". If the "Group items by category" check-box is checked, uncheck it. Now you should be able to see 1 item in the software list named "Smarty Feature"
  # Select the Smarty Feature, click Next> and from here afterwards it shouldn't be a problem.
    * If you are prompted that this is an unsigned package, just ignore the warning and install it anyway.
  # After the installation completes, restart Eclipse and it should be working.
