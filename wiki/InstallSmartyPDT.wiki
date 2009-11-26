@@ -3,7 +3,7 @@
 
 = Installation =
 
-This page describes the installation steps for smartypdt (provided by matei)
+This page describes the installation steps for smartypdt (Thanks matei.dragu)
 
 = Requirements =
 Download PDT 2.2 / Studio 7.1 all-in-one from Zend's site
