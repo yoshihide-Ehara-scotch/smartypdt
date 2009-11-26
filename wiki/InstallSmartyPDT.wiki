@@ -3,28 +3,19 @@
 
 = Installation =
 
-This page describes the installation steps for smartypdt
+This page describes the installation steps for smartypdt (provided by matei)
 
 = Requirements =
-Download PDT all-in-one from Zend's site:
- * linux-gtk: [http://downloads.zend.com/pdt/all-in-one/pdt-1.0.2.S20071213-M1_debugger-5.2.12.v20071210-all-in-one-linux-gtk.tar.gz here]
- * macosx-carbon [http://downloads.zend.com/pdt/all-in-one/pdt-1.0.2.S20071213-M1_debugger-5.2.12.v20071210-all-in-one-macosx-carbon.tar.gz here]
- * win32 [http://downloads.zend.com/pdt/all-in-one/pdt-1.0.2.S20071213-M1_debugger-5.2.12.v20071210-all-in-one-win32.zip here]
-
-OR, download all dependencies (by yourself):
- * Java 5 JRE version - [http://java.sun.com/javase/downloads/index_jdk5.jsp here]
- * Eclipse SDK v3.3.1.1 version - [http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.3.1.1-200710231652/eclipse-SDK-3.3.1.1-win32.zip here]
- * EMF SDO XSD 2.3.1 SDK version -  [http://www.eclipse.org/downloads/download.php?file=/modeling/emf/emf/downloads/drops/2.3.1/R200709252135/emf-sdo-xsd-SDK-2.3.1.zip here]
- * GEF 3.3.1 SDK version  - [http://www.eclipse.org/downloads/download.php?file=/tools/gef/downloads/drops/R-3.3.1-200709241000/GEF-SDK-3.3.1.zip here]
- * DTP 1.5.1 SDK version - [http://www.eclipse.org/downloads/download.php?file=/datatools/downloads/1.5/dtp-sdk_1.5.1_101607.zip here]
- * WTP 2.0.1 SDK version  - [http://www.eclipse.org/downloads/download.php?file=/webtools/downloads/drops/R2.0/R-2.0.1-20070926042742/wtp-sdk-R-2.0.1-20070926042742.zip here]
- * PDT 1.0.2 I20071209 - [http://download.eclipse.org/tools/pdt/downloads/?release=I20071209 here]
+Download PDT 2.2 / Studio 7.1 all-in-one from Zend's site
 
 = Install =
 (thanks to [http://code.google.com/u/bdgeorge/ bdgeorge] for his comment)
- * Unzip the smartypdt_X.zip (from [http://code.google.com/p/smartypdt]) file into the eclipse folder 
- * Go to Help->Software Updates->Manage Configuration 
- * Tick the icon to 'Show disabled Features' 
- * Find the "Smarty Feature nnnnn" entry and select it 
- * Click the "Enable" option from the Available tasks 
- * Restart Eclipse when prompted 
+You requested info about how to install SmartyPDT 0.9.0 on Galileo, so i will try to explain the steps:
+
+ # Download smartypdt 0.9.0 from http://smartypdt.googlecode.com/files/smartypdt-0_9_0.zip    
+   * Be shure that the .TPL files are not associated with any content type (file type). In Eclipse, go to Window->Preferences->General->Content Types and under the Text section check HTML and PHP Content Type If you see that the .TPL is associated with anything, just delete those entries.
+ # Go to Help-> Install New Software
+   * At the Work With section click on the Add... button. Give the new "Site" a name and click on Archive... and select the downloaded .ZIP archive with smartypdt. Go back to the Install New Software window and select the newly added "site". If the "Group items by category" checkbox is checked, uncheck it. Now you should be able to see 1 item in the software list named "Smarty Feature"
+ # Select the Smarty Feature, click Next> and from here afterwards it shouldn't be a problem.
+   * If you are prompted that this is an unsigned package, just ignore the warning and install it anyway.
+ # After the installation completes, restart Eclipse and it should be working.
