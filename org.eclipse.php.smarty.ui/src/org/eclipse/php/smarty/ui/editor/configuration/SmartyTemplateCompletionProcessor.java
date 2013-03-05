@@ -20,8 +20,8 @@ public class SmartyTemplateCompletionProcessor extends
 		PhpTemplateCompletionProcessor {
 
 	public SmartyTemplateCompletionProcessor(
-			ScriptContentAssistInvocationContext context) {
-		super(context);
+			ScriptContentAssistInvocationContext context, boolean explicit) {
+		super(context,explicit);
 		setContextTypeId(SmartyTemplateContextType.SMARTY_CONTEXT_TYPE_ID);
 	}
 	
