@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="SmartyPDT" url="http://smartypdt.googlecode.com/svn/trunk/org.eclipse.php.smarty.updatesite/">
+      Smarty Support for PDT
+   </description>
+   <feature url="features/org.eclipse.php.smarty_feature_0.91.0.jar" id="org.eclipse.php.smarty_feature" version="0.91"/>
+</site>
